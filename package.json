@@ -1,0 +1,24 @@
+{
+  "name": "librarymanagementapi",
+  "version": "1.0.0",
+  "description": "RESTful Small Library Management API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "RESTful",
+    "API",
+    "Tutorial"
+  ],
+  "author": "King Shalom",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.17.1"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.0.9"
+  }
+}
